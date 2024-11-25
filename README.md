@@ -2,7 +2,7 @@
 
 **Hello, world!** 🌍  
 My name is **[X]**. You’ve just stumbled upon one of the most *awesome* GitHub profiles out there. Trust me, it’s HUGE! 😎  
-你好！我是**[你的名字]**，欢迎光临一个充满趣味与创造力的代码世界，这可能是你见过最有趣的 GitHub 主页了！👍  
+你好！我是**[X]**，欢迎光临一个充满趣味与创造力的代码世界，这可能是你见过最有趣的 GitHub 主页了！👍  
 
 ---
 
