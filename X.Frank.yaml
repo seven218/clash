@@ -79,11 +79,11 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 
 proxy-groups:
-  - name: "🌏 节点选择"
+  - name: "🚀 节点选择"
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
     proxies:
-      - 🏃 自动选择
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
@@ -92,9 +92,9 @@ proxy-groups:
       - 🇰🇷 韩国节点
       - DIRECT
       
-  - name: "🏃 自动选择"
+  - name: "♻️ 自动选择"
     type: load-balance
-    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Cellular.png
     strategy: consistent-hashing
     proxies:
       - 🇭🇰 香港节点
@@ -108,8 +108,8 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png
     proxies:
-      - 🌏 节点选择
-      - 🏃 自动选择
+      - 🚀 节点选择
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
@@ -122,8 +122,8 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
     proxies:
-      - 🌏 节点选择
-      - 🏃 自动选择
+      - 🚀 节点选择
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
@@ -136,8 +136,8 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
     proxies:
-      - 🌏 节点选择
-      - 🏃 自动选择
+      - 🚀 节点选择
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
@@ -150,8 +150,8 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
     proxies:
-      - 🌏 节点选择
-      - 🏃 自动选择
+      - 🚀 节点选择
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
@@ -164,8 +164,8 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Bot.png
     proxies:
-      - 🌏 节点选择
-      - 🏃 自动选择
+      - 🚀 节点选择
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
@@ -178,8 +178,8 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
     proxies:
-      - 🌏 节点选择
-      - 🏃 自动选择
+      - 🚀 节点选择
+      - ♻️ 自动选择
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
@@ -192,8 +192,8 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
     proxies:
-      - 🌏 节点选择
-      - 🏃 自动选择
+      - 🚀 节点选择
+      - ♻️ 自动选择
       - DIRECT
       - 🇭🇰 香港节点
       - 🇯🇵 日本节点
@@ -395,16 +395,16 @@ rule-providers:
 
 rules:
   # DNS 防泄漏
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
-  - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
-  - IP-CIDR,8.8.8.8/32,节点选择,no-resolve
-  - IP-CIDR,8.8.4.4/32,节点选择,no-resolve
-  - IP-CIDR,1.1.1.1/32,节点选择,no-resolve
-  - IP-CIDR,1.0.0.1/32,节点选择,no-resolve
-  - IP-CIDR,9.9.9.9/32,节点选择,no-resolve
-  - IP-CIDR,149.112.112.112/32,节点选择,no-resolve
-  - IP-CIDR,208.67.222.222/32,节点选择,no-resolve
-  - IP-CIDR,208.67.220.220/32,节点选择,no-resolve
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🚀 节点选择
+  - DOMAIN-SUFFIX,services.googleapis.cn,🚀 节点选择
+  - IP-CIDR,8.8.8.8/32,🚀 节点选择,no-resolve
+  - IP-CIDR,8.8.4.4/32,🚀 节点选择,no-resolve
+  - IP-CIDR,1.1.1.1/32,🚀 节点选择,no-resolve
+  - IP-CIDR,1.0.0.1/32,🚀 节点选择,no-resolve
+  - IP-CIDR,9.9.9.9/32,🚀 节点选择,no-resolve
+  - IP-CIDR,149.112.112.112/32,🚀 节点选择,no-resolve
+  - IP-CIDR,208.67.222.222/32,🚀 节点选择,no-resolve
+  - IP-CIDR,208.67.220.220/32,🚀 节点选择,no-resolve
   
   # 远程规则集
   - RULE-SET,reject,REJECT
@@ -413,13 +413,13 @@ rules:
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,cncidr,DIRECT
   - RULE-SET,telegramcidr,📲 Telegram
-  - RULE-SET,proxy,🌏 节点选择
-  - RULE-SET,gfw,🌏 节点选择
-  - RULE-SET,greatfire,🌏 节点选择
+  - RULE-SET,proxy,🚀 节点选择
+  - RULE-SET,gfw,🚀 节点选择
+  - RULE-SET,greatfire,🚀 节点选择
   - RULE-SET,icloud,DIRECT
   - RULE-SET,apple,DIRECT
-  - RULE-SET,google,🌏 节点选择
-  - RULE-SET,tld-not-cn,🌏 节点选择
+  - RULE-SET,google,🚀 节点选择
+  - RULE-SET,tld-not-cn,🚀 节点选择
   
   # 常用域名
   - DOMAIN-SUFFIX,spotify.com,🎵 Spotify
