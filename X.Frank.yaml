@@ -42,7 +42,7 @@ proxy-providers:
     type: http
     url: "https://crncc6it4w.zodacchub.com/link/3QDsQMx3I0lWuD10?clash=1"
     interval: 3600
-    path: ./proxy_providers/provider1.yaml
+    path: ./provider1.yaml
     health-check:
       enable: true
       interval: 600
@@ -52,7 +52,7 @@ proxy-providers:
     type: http
     url: "https://wzedug.nicecloud.win:8443/api/v1/client/96ccc15ce31aca1b97d4f3da2d5ba985?flag=clashmeta"
     interval: 3600
-    path: ./proxy_providers/provider2.yaml
+    path: ./provider2.yaml
     health-check:
       enable: true
       interval: 600
@@ -62,7 +62,7 @@ proxy-providers:
     type: http
     url: "https://nnm.subscription.331820.xyz/nannanmiao?token=fcf09a0a6a875819ef7528d76f4f6477&flag=meta"
     interval: 3600
-    path: ./proxy_providers/provider3.yaml
+    path: ./provider3.yaml
     health-check:
       enable: true
       interval: 600
@@ -72,7 +72,7 @@ proxy-providers:
     type: http
     url: "https://xsus.wiki/api/v1/client/subscribe?token=92329c62757bc989cf97df57a28ae9bf"
     interval: 3600
-    path: ./proxy_providers/provider4.yaml
+    path: ./provider4.yaml
     health-check:
       enable: true
       interval: 600
