@@ -420,6 +420,7 @@ rules:
   - DOMAIN-SUFFIX,anthropic.com,🤖 OpenAI
   - DOMAIN-KEYWORD,youtube,📺 YouTube
   - DOMAIN-KEYWORD,ytimg,📺 YouTube
+  - DOMAIN-KEYWORD,claude,🤖 OpenAI
   - DOMAIN-KEYWORD,tiktok,📱 TikTok
   - DOMAIN-KEYWORD,tiktokv,📱 TikTok
   - DOMAIN-KEYWORD,twitter,🐦 Twitter
