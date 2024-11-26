@@ -301,7 +301,7 @@ proxy-groups:
       - provider2
       - provider3
       - provider4
-    filter: "^(?!.*(港|hk|hongkong|hong kong|日本|jp|japan|美|us|united states|america|台|tw|taiwan|新|sg|singapore|韩|kr|korea)).*$"
+    filter: "^(?!.*(港|hk|hongkong|hong kong|日本|jp|japan|美|us|united states|america|台|tw|taiwan|新|狮城|sg|singapore|韩|kr|korea)).*$"
 
 rule-providers:
   reject:
