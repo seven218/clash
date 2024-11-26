@@ -418,7 +418,15 @@ rules:
   - DOMAIN-SUFFIX,youtube.com,📺 YouTube
   - DOMAIN-SUFFIX,openai.com,🤖 OpenAI
   - DOMAIN-SUFFIX,anthropic.com,🤖 OpenAI
-
+  - DOMAIN-KEYWORD,youtube,📺 YouTube
+  - DOMAIN-KEYWORD,ytimg,📺 YouTube
+  - DOMAIN-KEYWORD,tiktok,📱 TikTok
+  - DOMAIN-KEYWORD,tiktokv,📱 TikTok
+  - DOMAIN-KEYWORD,twitter,🐦 Twitter
+  - DOMAIN-KEYWORD,t.co,🐦 Twitter
+  - DOMAIN-KEYWORD,icloud,DIRECT
+  - DOMAIN-KEYWORD,apple,DIRECT
+  
   # 远程规则集
   - RULE-SET,reject,REJECT
   - RULE-SET,private,DIRECT
