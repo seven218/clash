@@ -217,7 +217,7 @@ proxy-groups:
       - provider2
       - provider3
       - provider4
-    filter: "(?i)港|hk|hongkong|hong kong"
+    filter: "(?i)港|hk|🇭🇰|hongkong|hong kong"
 
   - name: "🇯🇵 日本节点"
     type: load-balance
@@ -231,7 +231,7 @@ proxy-groups:
       - provider2
       - provider3
       - provider4
-    filter: "(?i)日本|jp|japan"
+    filter: "(?i)日本|jp|🇯🇵|japan"
 
   - name: "🇺🇸 美国节点"
     type: load-balance
@@ -245,7 +245,7 @@ proxy-groups:
       - provider2
       - provider3
       - provider4
-    filter: "(?i)美|us|united states|america"
+    filter: "(?i)美|us|🇺🇸|united states|america"
 
   - name: "🇹🇼 台湾节点"
     type: load-balance
@@ -273,7 +273,7 @@ proxy-groups:
       - provider2
       - provider3
       - provider4
-    filter: "(?i)新|sg|singapore"
+    filter: "(?i)新|狮城|🇸🇬|sg|singapore"
 
   - name: "🇰🇷 韩国节点"
     type: load-balance
@@ -287,7 +287,7 @@ proxy-groups:
       - provider2
       - provider3
       - provider4
-    filter: "(?i)韩|kr|korea"
+    filter: "(?i)韩|kr|🇰🇷|korea"
 
   - name: "🌍 其他节点"
     type: load-balance
