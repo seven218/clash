@@ -42,67 +42,61 @@ proxy-providers:
     type: http
     url: "https://crncc6it4w.zodacchub.com/link/3QDsQMx3I0lWuD10?clash=1"
     interval: 3600
-    path: ./provider1.yaml
+    path: ./proxy_providers/provider1.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-
   provider2:
     type: http
     url: "https://wzedug.nicecloud.win:8443/api/v1/client/96ccc15ce31aca1b97d4f3da2d5ba985?flag=clashmeta"
     interval: 3600
-    path: ./provider2.yaml
+    path: ./proxy_providers/provider2.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-
   provider3:
     type: http
     url: "https://nnm.subscription.331820.xyz/nannanmiao?token=fcf09a0a6a875819ef7528d76f4f6477&flag=meta"
     interval: 3600
-    path: ./provider3.yaml
+    path: ./proxy_providers/provider3.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-
   provider4:
     type: http
     url: "https://xsus.wiki/api/v1/client/subscribe?token=92329c62757bc989cf97df57a28ae9bf"
     interval: 3600
-    path: ./provider4.yaml
+    path: ./proxy_providers/provider4.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-
   provider5:
     type: http
     url: "https://proxyinfo.net/api/v1/client/subscribe?token=b0fcb4eadcef5a4f0586cfaf907c35b5"
     interval: 3600
-    path: ./provider5.yaml
+    path: ./proxy_providers/provider5.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-
   provider6:
     type: http
     url: "https://c0ae0474.jego.vip/subscribe/clash/d7984c8c594781dbb63e0e7342d8b181"
     interval: 3600
-    path: ./provider6.yaml
+    path: ./proxy_providers/provider6.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
-
   provider7:
     type: http
     url: "https://user9500.eyudy.one/api/v1/client/subscribe?token=b79d099dfd5e591afe2c6cab79bede49&types=hysteria2"
     interval: 3600
-    path: ./provider7.yaml
+    path: ./proxy_providers/provider7.yaml
     health-check:
       enable: true
       interval: 600
