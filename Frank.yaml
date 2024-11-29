@@ -101,6 +101,15 @@ proxy-providers:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
+  provider8:
+    type: http
+    url: "https://yfjc.xyz/api/v1/client/subscribe?token=1a1631f1a7716bcd37a289b913ef227a"
+    interval: 3600
+    path: ./proxy_providers/provider8.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
 
 proxy-groups:
   - name: "🚀 节点选择"
@@ -244,6 +253,7 @@ proxy-groups:
       - provider5
       - provider6
       - provider7
+      - provider8
     filter: "(?i)港|hk|🇭🇰|hongkong|hong kong"
 
   - name: "🇯🇵 日本节点"
@@ -261,6 +271,7 @@ proxy-groups:
       - provider5
       - provider6
       - provider7
+      - provider8
     filter: "(?i)日本|jp|🇯🇵|japan"
 
   - name: "🇺🇸 美国节点"
@@ -278,6 +289,7 @@ proxy-groups:
       - provider5
       - provider6
       - provider7
+      - provider8
     filter: "(?i)美|us|🇺🇸|united states|america"
 
   - name: "🇹🇼 台湾节点"
@@ -295,6 +307,7 @@ proxy-groups:
       - provider5
       - provider6
       - provider7
+      - provider8
     filter: "(?i)台|tw|taiwan"
 
   - name: "🇸🇬 狮城节点"
@@ -312,6 +325,7 @@ proxy-groups:
       - provider5
       - provider6
       - provider7
+      - provider8
     filter: "(?i)新|狮城|🇸🇬|sg|singapore"
 
   - name: "🇰🇷 韩国节点"
@@ -329,6 +343,7 @@ proxy-groups:
       - provider5
       - provider6
       - provider7
+      - provider8
     filter: "(?i)韩|kr|🇰🇷|korea"
 
   - name: "🌍 其他节点"
@@ -346,6 +361,7 @@ proxy-groups:
       - provider5
       - provider6
       - provider7
+      - provider8
     filter: "^(?!.*(港|hk|hongkong|hong kong|日本|jp|japan|美|us|united states|america|台|tw|taiwan|新|狮城|sg|singapore|韩|kr|korea)).*$"
 
 rule-providers:
