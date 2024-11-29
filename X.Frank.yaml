@@ -237,19 +237,12 @@ proxy-groups:
 
   - name: "🇭🇰 香港节点"
     type: load-balance
+    include-all-providers: true
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
     strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    use:
-      - provider1
-      - provider2
-      - provider3
-      - provider4
-      - provider5
-      - provider6
-      - provider7
     filter: "(?i)港|hk|🇭🇰|hongkong|hong kong"
 
   - name: "🇯🇵 日本节点"
