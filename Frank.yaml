@@ -355,8 +355,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     use:
-      - provider1
-      - provider2
       - provider7
 
 rule-providers:
