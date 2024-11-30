@@ -350,8 +350,8 @@ proxy-groups:
       - provider8
     filter: "^(?!.*(港|hk|hongkong|hong kong|日本|jp|japan|美|us|united states|america|台|tw|taiwan|新|狮城|sg|singapore|韩|kr|korea)).*$"
   - name: "🐊 鳄鱼看油管"
-     type: load-balance
-     strategy: consistent-hashing
+    type: load-balance
+    strategy: consistent-hashing
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Fries.png
     url: http://www.gstatic.com/generate_204
     interval: 300
