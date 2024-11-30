@@ -214,6 +214,7 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
     proxies:
       - 🐊 鳄鱼看油管
+      - ♻️ 自动选择
       
   - name: "🐟 漏网之鱼"
     type: select
