@@ -348,8 +348,9 @@ proxy-groups:
       - provider8
     filter: "^(?!.*(港|hk|hongkong|hong kong|日本|jp|japan|美|us|united states|america|台|tw|taiwan|新|狮城|sg|singapore|韩|kr|korea)).*$"
   - name: "🐊 鳄鱼➕1➕2"
-    type: url-test
+    type: load-balance
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Fries.png
+    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
