@@ -123,6 +123,7 @@ proxy-groups:
       - 🇹🇼 台湾节点
       - 🇸🇬 狮城节点
       - 🇰🇷 韩国节点
+      - 🐊 鳄鱼吃油管
       - 🌍 其他节点
       - DIRECT
       
@@ -152,6 +153,7 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇰🇷 韩国节点
       - 🌍 其他节点
+      - 🐊 鳄鱼吃油管
       
   - name: "🐦 Twitter"
     type: select
@@ -166,6 +168,7 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇰🇷 韩国节点
       - 🌍 其他节点
+      - 🐊 鳄鱼吃油管
       
   - name: "📲 Telegram"
     type: select
@@ -180,6 +183,7 @@ proxy-groups:
       - 🇸🇬 狮城节点
       - 🇰🇷 韩国节点
       - 🌍 其他节点
+      - 🐊 鳄鱼吃油管
       
   - name: "🎵 Spotify"
     type: select
@@ -348,7 +352,7 @@ proxy-groups:
       - provider8
     filter: "^(?!.*(港|hk|hongkong|hong kong|日本|jp|japan|美|us|united states|america|台|tw|taiwan|新|狮城|sg|singapore|韩|kr|korea)).*$"
   
-  - name: "🐊 鳄鱼➕1➕2"
+  - name: "🐊 鳄鱼吃油管"
     type: url-test
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Fries.png
     url: http://www.gstatic.com/generate_204
