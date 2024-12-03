@@ -336,8 +336,9 @@ proxy-groups:
     filter: "(?i)韩|kr|🇰🇷|korea"
 
   - name: "🌍 其他节点"
-    type: url-test
+    type: load-balance
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/World_Map.png
+    strategy: consistent-hashing
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
