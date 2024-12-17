@@ -94,7 +94,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   provider7:
     type: http
-    url: "https://user9500.eyudy.one/api/v1/client/subscribe?token=b79d099dfd5e591afe2c6cab79bede49&types=hysteria2"
+    url: "https://user6728.eyudy.one/api/v1/client/subscribe?token=ec906b57f34a1379f2a0fd7eb5c7dabc&types=hysteria2"
     interval: 3600
     path: ./proxy_providers/provider7.yaml
     health-check:
