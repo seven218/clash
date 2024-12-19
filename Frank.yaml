@@ -123,8 +123,8 @@ proxy-groups:
       - 🇹🇼 台湾节点
       - 🇸🇬 狮城节点
       - 🇰🇷 韩国节点
-      - 🐊 鳄鱼吃油管
       - 🌍 其他节点
+      - 🐊 鳄鱼吃油管
       - DIRECT
       
   - name: "♻️ 自动选择"
@@ -145,38 +145,6 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok_1.png
     proxies:
       - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
-      - 🇹🇼 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇰🇷 韩国节点
-      - 🌍 其他节点
-      - 🐊 鳄鱼吃油管
-      
-  - name: "🐦 Twitter"
-    type: select
-    icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/x.png
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇭🇰 香港节点
-      - 🇯🇵 日本节点
-      - 🇺🇸 美国节点
-      - 🇹🇼 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇰🇷 韩国节点
-      - 🌍 其他节点
-      - 🐊 鳄鱼吃油管
-      
-  - name: "📲 Telegram"
-    type: select
-    icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇹🇼 台湾节点
@@ -204,8 +172,6 @@ proxy-groups:
     icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/anthropic.png
     proxies:
       - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇭🇰 香港节点
       - 🇯🇵 日本节点
       - 🇺🇸 美国节点
       - 🇹🇼 台湾节点
@@ -217,6 +183,7 @@ proxy-groups:
     type: select
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
     proxies:
+      - 🚀 节点选择
       - 🐊 鳄鱼吃油管
       
   - name: "🐟 漏网之鱼"
@@ -224,7 +191,6 @@ proxy-groups:
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
     proxies:
       - 🚀 节点选择
-      - ♻️ 自动选择
       - DIRECT
 
   - name: "🇭🇰 香港节点"
@@ -466,14 +432,13 @@ rules:
   - IP-CIDR,149.112.112.112/32,🚀 节点选择,no-resolve
   - IP-CIDR,208.67.222.222/32,🚀 节点选择,no-resolve
   - IP-CIDR,208.67.220.220/32,🚀 节点选择,no-resolve
-  
-    # 常用域名
+  # 常用域名
   - DOMAIN-SUFFIX,spotify.com,🎵 Spotify
-  - DOMAIN-SUFFIX,twitter.com,🐦 Twitter
-  - DOMAIN-SUFFIX,t.co,🐦 Twitter
+  - DOMAIN-SUFFIX,twitter.com,🚀 节点选择
+  - DOMAIN-SUFFIX,t.co,🚀 节点选择
   - DOMAIN-SUFFIX,tiktok.com,📱 TikTok
   - DOMAIN-SUFFIX,tiktokv.com,📱 TikTok
-  - DOMAIN-SUFFIX,telegram.org,📲 Telegram
+  - DOMAIN-SUFFIX,telegram.org,🚀 节点选择
   - DOMAIN-SUFFIX,youtube.com,📺 YouTube
   - DOMAIN-SUFFIX,openai.com,🤖 OpenAI
   - DOMAIN-SUFFIX,anthropic.com,🤖 OpenAI
@@ -483,18 +448,16 @@ rules:
   - DOMAIN-KEYWORD,chatgpt,🤖 OpenAI
   - DOMAIN-KEYWORD,tiktok,📱 TikTok
   - DOMAIN-KEYWORD,tiktokv,📱 TikTok
-  - DOMAIN-KEYWORD,twitter,🐦 Twitter
-  - DOMAIN-KEYWORD,t.co,🐦 Twitter
+  - DOMAIN-KEYWORD,t.co,🚀 节点选择
   - DOMAIN-KEYWORD,icloud,DIRECT
   - DOMAIN-KEYWORD,apple,DIRECT
-  
   # 远程规则集
   - RULE-SET,reject,REJECT
   - RULE-SET,private,DIRECT
   - RULE-SET,direct,DIRECT
   - RULE-SET,lancidr,DIRECT
   - RULE-SET,cncidr,DIRECT
-  - RULE-SET,telegramcidr,📲 Telegram
+  - RULE-SET,telegramcidr,🚀 节点选择
   - RULE-SET,proxy,🚀 节点选择
   - RULE-SET,gfw,🚀 节点选择
   - RULE-SET,greatfire,🚀 节点选择
@@ -502,7 +465,6 @@ rules:
   - RULE-SET,apple,DIRECT
   - RULE-SET,google,🚀 节点选择
   - RULE-SET,tld-not-cn,🚀 节点选择
-  
   # 兜底规则
   - GEOIP,CN,DIRECT,no-resolve
   - MATCH,🐟 漏网之鱼
